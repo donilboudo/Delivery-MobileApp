@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Gestion Livraison</string>
+
+    <string name="title_menu">Menu</string>
+    <string name="title_newDelivery">Nouvelle livraison</string>
+    <string name="title_myDeliveries">Mes livraisons</string>
+    <string name="title_myDeliveriesHistory">Historique de livraisons</string>
+    <string name="title_myInfo">Mes informations</string>
+
+    <string name="email">Email</string>
+    <string name="userName">Nom d\'utilisateur</string>
+    <string name="password">Mot de passe</string>
+    <string name="login">Login</string>
+    <string name="connection">Connexion</string>
+    <string name="myDeliveries">Mes livraisons</string>
+    <string name="new_delivery">Nouvelle livraison</string>
+    <string name="userInfo">Mes informations</string>
+    <string name="lblComments">Commentaires:</string>
+    <string name="logout">Deconnexion</string>
+
+    <!--general-->
+    <string name="lblStartDelivery">Démarrer la course</string>
+    <string name="lblCancel">Annuler</string>
+
+    <string name="lblClient">Client:</string>
+    <string name="lblSenderReferences">References de l\'envoyeur:</string>
+    <string name="lblSendDate"><![CDATA[Date & Heure]]> d\'envoie:</string>
+    <string name="lblReceiver">Receveur:</string>
+    <string name="lblReceiverAddress">Addresse de livraison:</string>
+    <string name="lblSender">Envoyeur:</string>
+    <string name="lblReceiverReferences">References du receveur:</string>
+
+
+    <string name="lblBadConnexionInfo">Verifier les informations de connexion</string>
+    <string name="lblEndDelivery">Terminer la course</string>
+    <string name="lblReceiveDate">Date de réception:</string>
+
+
+    <!--user info-->
+    <string name="lblFirstName">Prenom</string>
+    <string name="lblLastName">Nom</string>
+    <string name="lblPhone">Telephone</string>
+    <string name="lblEmail">Email</string>
+    <string name="lblUserName">Nom d\'utilisateur</string>
+    <string name="lblPassword">Mot de passe</string>
+    <string name="lblUpdateInfo">Mise a jour</string>
+    <string name="logo">logo</string>
+    <string name="lblBack">Retour</string>
+</resources>

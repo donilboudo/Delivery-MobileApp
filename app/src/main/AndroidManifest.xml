@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="ca.beogotechnologies.deliverymanager_mobileapp">
+
+    <!-- permissions -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/DeliveryManager">
+        <receiver
+            android:name=".util.NetworkChangeReceiver"
+            android:label="NetworkChangeReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".activities.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.MainActivity"
+            android:label="@string/title_menu"
+            android:parentActivityName=".activities.LoginActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.LoginActivity"/>
+        </activity>
+        <activity
+            android:name=".activities.NewDeliveryActivity"
+            android:label="@string/title_newDelivery"
+            android:windowSoftInputMode="stateHidden">
+        </activity>
+        <activity
+            android:name=".activities.MyOpenedDeliveriesActivity"
+            android:label="@string/title_myDeliveries"
+            android:parentActivityName=".activities.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.MainActivity"/>
+        </activity>
+        <activity
+            android:name=".activities.MyCompletedDeliveriesActivity"
+            android:label="@string/title_myDeliveriesHistory"
+            android:windowSoftInputMode="stateHidden">
+        </activity>
+        <activity
+            android:name=".activities.UserInfoActivity"
+            android:label="@string/title_myInfo"
+            android:windowSoftInputMode="stateHidden">
+        </activity>
+        <activity
+            android:name=".activities.CompleteDeliveryActivity"
+            android:parentActivityName=".activities.MyOpenedDeliveriesActivity"
+            android:windowSoftInputMode="stateHidden">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.MyOpenedDeliveriesActivity"/>
+        </activity>
+        <activity android:name=".activities.CompletedDeliveryDetailsActivity">
+        </activity><!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/>
+    </application>
+
+</manifest>

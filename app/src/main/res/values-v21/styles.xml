@@ -1,0 +1,24 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="DeliveryManager" parent="AppTheme">
+        <item name="colorPrimary">@android:color/holo_green_light</item>
+        <item name="android:statusBarColor">?android:attr/colorPrimary</item>
+    </style>
+
+    <style name="SubmitButton" parent="Theme.AppCompat.Light">
+        <!--<item name="colorControlHighlight">@color/colorWhite</item>-->
+        <item name="colorButtonNormal">@color/colorWhite</item>
+    </style>
+
+    <style name="CancelButton" parent="Theme.AppCompat.Light">
+        <!--<item name="colorControlHighlight">@color/colorWhite</item>-->
+        <item name="colorButtonNormal">@color/colorRed</item>
+    </style>
+</resources>

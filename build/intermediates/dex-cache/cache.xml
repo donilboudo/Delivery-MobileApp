@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/fabrice/AndroidStudioProjects/DeliveryManager-MobileApp/app/build/intermediates/incremental-classes/DeliveryManager/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="51c1fdc4d0c3683da754a71a1dc64861dd536487">
+        <dex dex="/Users/fabrice/AndroidStudioProjects/DeliveryManager-MobileApp/app/build/intermediates/transforms/dex/DeliveryManager/debug/folders/1000/10/instant-run-bootstrap_7e10f35d3f61b98e617075ebe21b13253070f517/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fabrice/AndroidStudioProjects/DeliveryManager-MobileApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="/Users/fabrice/AndroidStudioProjects/DeliveryManager-MobileApp/app/build/intermediates/transforms/dex/DeliveryManager/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-8.4.0_bbbb6d7f15c7f31baae53eda1d673eba01ded435/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fabrice/AndroidStudioProjects/DeliveryManager-MobileApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/fabrice/AndroidStudioProjects/DeliveryManager-MobileApp/app/build/intermediates/transforms/dex/DeliveryManager/debug/folders/1000/10/com.android.support-support-v4-25.1.0_ba9bac535babc0be91b2b9c8dd76bcc91b0e4f50/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fabrice/AndroidStudioProjects/DeliveryManager-MobileApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="/Users/fabrice/AndroidStudioProjects/DeliveryManager-MobileApp/app/build/intermediates/transforms/dex/DeliveryManager/debug/folders/1000/10/com.google.android.gms-play-services-base-8.4.0_376858c8dca9e508e0dfa1c2b9060981012feecb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fabrice/AndroidStudioProjects/DeliveryManager-MobileApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="/Users/fabrice/AndroidStudioProjects/DeliveryManager-MobileApp/app/build/intermediates/transforms/dex/DeliveryManager/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.0_c54c0f49c7632f6341f357d615e73bdd4ea5414e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fabrice/AndroidStudioProjects/DeliveryManager-MobileApp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="/Users/fabrice/AndroidStudioProjects/DeliveryManager-MobileApp/app/build/intermediates/transforms/dex/DeliveryManager/debug/folders/1000/10/com.android.support-recyclerview-v7-25.1.0_86d5c5a0912cb90fb46b0c715984925cb47f05ab/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fabrice/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="/Users/fabrice/AndroidStudioProjects/DeliveryManager-MobileApp/app/build/intermediates/transforms/dex/DeliveryManager/debug/folders/1000/10/support-annotations-25.1.0_5dffd2873eb07558a90e9d22a5001367b204dbeb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fabrice/AndroidStudioProjects/DeliveryManager-MobileApp/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="/Users/fabrice/AndroidStudioProjects/DeliveryManager-MobileApp/app/build/intermediates/transforms/dex/DeliveryManager/debug/folders/1000/10/com.android.support-transition-25.1.0_c887516b469d5811324ad5b17ead7a9f159727b5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fabrice/AndroidStudioProjects/DeliveryManager-MobileApp/app/build/intermediates/incremental-runtime-classes/DeliveryManager/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c9827682686ef5f73dd52eb16756836c2025df0b">
+        <dex dex="/Users/fabrice/AndroidStudioProjects/DeliveryManager-MobileApp/app/build/intermediates/transforms/dex/DeliveryManager/debug/folders/1000/10/instant-run_10d1cf2a7802e5d79a9fe3568b3cebd56fb45377/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fabrice/AndroidStudioProjects/DeliveryManager-MobileApp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="/Users/fabrice/AndroidStudioProjects/DeliveryManager-MobileApp/app/build/intermediates/transforms/dex/DeliveryManager/debug/folders/1000/10/com.android.support-support-core-ui-25.1.0_6262b2153754654489709ef03cfcaea066a66835/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fabrice/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.4/695b63d702f505b9b916e02272e3b6381bade7f/gson-2.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
+        <dex dex="/Users/fabrice/AndroidStudioProjects/DeliveryManager-MobileApp/app/build/intermediates/transforms/dex/DeliveryManager/debug/folders/1000/10/gson-2.4_892357c632744e250bea3882fde10b38d6f70a12/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fabrice/AndroidStudioProjects/DeliveryManager-MobileApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="/Users/fabrice/AndroidStudioProjects/DeliveryManager-MobileApp/app/build/intermediates/transforms/dex/DeliveryManager/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.0_fcbd88141b1727f0589e61e981a036375b3f419f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fabrice/AndroidStudioProjects/DeliveryManager-MobileApp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="/Users/fabrice/AndroidStudioProjects/DeliveryManager-MobileApp/app/build/intermediates/transforms/dex/DeliveryManager/debug/folders/1000/10/com.android.support-support-fragment-25.1.0_441bd36b3922bcc9f67d205211b666cacc1a0765/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fabrice/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/6.1.0/63735f48b82bcd24cdd33821342428252eb1ca5a/butterknife-6.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="63735f48b82bcd24cdd33821342428252eb1ca5a">
+        <dex dex="/Users/fabrice/AndroidStudioProjects/DeliveryManager-MobileApp/app/build/intermediates/transforms/dex/DeliveryManager/debug/folders/1000/10/butterknife-6.1.0_aad7abdab9eaa26b12b2146c802960f5d77f03b5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fabrice/AndroidStudioProjects/DeliveryManager-MobileApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/Users/fabrice/AndroidStudioProjects/DeliveryManager-MobileApp/app/build/intermediates/transforms/dex/DeliveryManager/debug/folders/1000/10/com.google.android.gms-play-services-basement-8.4.0_2ec5c88f480fd22e100b6e84c02b74d25b383d96/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fabrice/AndroidStudioProjects/DeliveryManager-MobileApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="/Users/fabrice/AndroidStudioProjects/DeliveryManager-MobileApp/app/build/intermediates/transforms/dex/DeliveryManager/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.0_f87773bf34cdb1e317b7d94df26b12e02aab6dcf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fabrice/AndroidStudioProjects/DeliveryManager-MobileApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="/Users/fabrice/AndroidStudioProjects/DeliveryManager-MobileApp/app/build/intermediates/transforms/dex/DeliveryManager/debug/folders/1000/10/com.android.support-support-core-utils-25.1.0_a3dbd457e2a19ed7f882bfa1d84cd78a7fd26467/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fabrice/AndroidStudioProjects/DeliveryManager-MobileApp/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="/Users/fabrice/AndroidStudioProjects/DeliveryManager-MobileApp/app/build/intermediates/transforms/dex/DeliveryManager/debug/folders/1000/10/com.android.support-design-25.1.0_d9907d838f2d95ba76e6107cce215bff11ca90cb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fabrice/AndroidStudioProjects/DeliveryManager-MobileApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="/Users/fabrice/AndroidStudioProjects/DeliveryManager-MobileApp/app/build/intermediates/transforms/dex/DeliveryManager/debug/folders/1000/10/com.android.support-support-compat-25.1.0_50ba268f9cc03f129fd234f4fac487c52c7c5557/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fabrice/AndroidStudioProjects/DeliveryManager-MobileApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="/Users/fabrice/AndroidStudioProjects/DeliveryManager-MobileApp/app/build/intermediates/transforms/dex/DeliveryManager/debug/folders/1000/10/com.android.support-support-media-compat-25.1.0_1248cf41b1effe849bc66d3fad18082bbfefc747/classes.dex" />
+    </item>
+
+</items>
