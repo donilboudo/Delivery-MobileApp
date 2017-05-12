@@ -9,7 +9,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="ca.beogotechnologies.deliverymanager_mobileapp.activities.CompleteDeliveryActivity">
+    tools:context="ca.beogotechnologies.deliverymanager_mobileapp.activities.employee.CompleteDeliveryActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -27,7 +27,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="0dp"
                 android:layout_marginStart="0dp"
-                android:id="@+id/lblReceiveDate"/>
+                android:id="@+id/lblReceiveDate"
+                android:fontFamily="sans-serif-smallcaps"/>
 
             <EditText
                 android:layout_width="match_parent"
@@ -46,7 +47,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="0dp"
                 android:layout_marginStart="0dp"
-                android:id="@+id/lblSender"/>
+                android:id="@+id/lblSender"
+                android:fontFamily="sans-serif-smallcaps"/>
 
             <EditText
                 android:layout_width="match_parent"
@@ -64,7 +66,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/lblReceiver"
-                android:layout_marginTop="15dp"/>
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-smallcaps"/>
 
             <EditText
                 android:layout_width="match_parent"
@@ -82,7 +85,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/lblReceiverAddress"
-                android:layout_marginTop="10dp"/>
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"/>
 
             <EditText
                 android:layout_width="match_parent"
@@ -100,7 +104,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/lblReceiverReferences"
-                android:layout_marginTop="15dp"/>
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-smallcaps"/>
 
             <EditText
                 android:layout_width="match_parent"
@@ -114,7 +119,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/lblSenderComments"
-                android:layout_marginTop="10dp"/>
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"/>
 
             <EditText
                 android:layout_width="match_parent"
@@ -166,7 +172,7 @@
                     android:text="@string/lblEndDelivery"
                     android:theme="@style/SubmitButton"
                     android:layout_weight="1"
-                    />
+                    android:fontFamily="sans-serif-smallcaps"/>
 
                 <Button
                     android:text="@string/lblCancel"
@@ -180,7 +186,8 @@
                     android:layout_weight="1"
                     android:theme="@style/CancelButton"
                     android:textColor="@color/colorWhite"
-                    android:onClick="cancel"/>
+                    android:onClick="cancel"
+                    android:fontFamily="sans-serif-smallcaps"/>
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

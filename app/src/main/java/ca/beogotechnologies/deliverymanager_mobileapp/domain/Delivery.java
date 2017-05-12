@@ -2,6 +2,8 @@ package ca.beogotechnologies.deliverymanager_mobileapp.domain;
 
 import java.io.Serializable;
 import java.util.Date;
+import java.util.GregorianCalendar;
+import java.util.TimeZone;
 
 /**
  * Created by fabrice on 2017-03-22.
@@ -11,15 +13,18 @@ public class Delivery implements Serializable{
     private String id;
     private User user;
     private Client client;
-    private Date sendDate;
-    private Date receiveDate;
+    private long sendDate;
+    private long receiveDate;
     private String senderComments;
-    private String receiver;
+    private String receiverName;
     private String receiverComments;
     private String senderReferences;
     private String receiverReferences;
     private String status;
     private String receiverAddress;
+    private String receiverNumber;
+
+    private final GregorianCalendar calendar = new GregorianCalendar(TimeZone.getTimeZone("Canada/Central"));
 
     public Delivery() {
 
@@ -50,18 +55,20 @@ public class Delivery implements Serializable{
     }
 
     public Date getSendDate() {
-        return sendDate;
+        calendar.setTimeInMillis(sendDate);
+        return calendar.getTime();
     }
 
-    public void setSendDate(Date sendDate) {
+    public void setSendDate(long sendDate) {
         this.sendDate = sendDate;
     }
 
     public Date getReceiveDate() {
-        return receiveDate;
+        calendar.setTimeInMillis(receiveDate);
+        return calendar.getTime();
     }
 
-    public void setReceiveDate(Date receiveDate) {
+    public void setReceiveDate(long receiveDate) {
         this.receiveDate = receiveDate;
     }
 
@@ -113,11 +120,19 @@ public class Delivery implements Serializable{
         this.receiverAddress = receiverAddress;
     }
 
-    public String getReceiver() {
-        return receiver;
+    public String getReceiverName() {
+        return receiverName;
     }
 
-    public void setReceiver(String receiver) {
-        this.receiver = receiver;
+    public void setReceiver(String receiverName) {
+        this.receiverName = receiverName;
+    }
+
+    public String getReceiverNumber() {
+        return receiverNumber;
+    }
+
+    public void setReceiverNumber(String receiverNumber) {
+        this.receiverNumber = receiverNumber;
     }
 }

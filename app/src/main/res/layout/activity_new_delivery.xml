@@ -9,7 +9,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="ca.beogotechnologies.deliverymanager_mobileapp.activities.NewDeliveryActivity">
+    tools:context="ca.beogotechnologies.deliverymanager_mobileapp.activities.employee.NewDeliveryActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -32,10 +32,7 @@
                 android:layout_marginLeft="0dp"
                 android:layout_marginStart="0dp"
                 android:id="@+id/lblSendDate"
-                android:clickable="false"
-                android:focusable="false"
-                android:textIsSelectable="false"
-                android:inputType="none"/>
+                android:fontFamily="sans-serif-smallcaps"/>
 
             <EditText
                 android:layout_width="match_parent"
@@ -52,7 +49,8 @@
                 android:text="@string/lblClient"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/lblSender"/>
+                android:id="@+id/lblSender"
+                android:fontFamily="sans-serif-smallcaps"/>
 
             <Spinner
                 android:layout_width="match_parent"
@@ -66,7 +64,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/lblReceiver"
-                android:layout_marginTop="15dp"/>
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-smallcaps"/>
 
             <EditText
                 android:layout_width="match_parent"
@@ -77,11 +76,44 @@
                 />
 
             <TextView
+                android:text="@string/lblReceiverNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lblReceiverNumber"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-smallcaps"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/txtReceiverNumber"
+                />
+
+            <TextView
+                android:text="@string/lblDeliveryType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lblDeliveryType"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-smallcaps"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:ems="10"
+                android:id="@+id/txtDeliveryType"
+                />
+
+            <TextView
                 android:text="@string/lblReceiverAddress"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/lblReceiverAddress"
-                android:layout_marginTop="10dp"/>
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"/>
 
             <EditText
                 android:layout_width="match_parent"
@@ -95,7 +127,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/lblSenderReferences"
-                android:layout_marginTop="15dp"/>
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-smallcaps"/>
 
             <EditText
                 android:layout_width="match_parent"
@@ -109,7 +142,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/lblSenderComments"
-                android:layout_marginTop="10dp"/>
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"/>
 
             <EditText
                 android:layout_width="match_parent"
@@ -129,7 +163,7 @@
                     android:layout_width="30dp"
                     android:layout_height="60dp"
                     android:onClick="saveNewDelivery"
-                    android:text="@string/lblStartDelivery"
+                    android:text="@string/lblNewDelivery"
                     android:theme="@style/SubmitButton"
                     android:layout_weight="1"
                     />

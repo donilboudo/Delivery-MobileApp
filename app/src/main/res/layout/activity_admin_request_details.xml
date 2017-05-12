@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_new_delivery"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ca.beogotechnologies.deliverymanager_mobileapp.activities.admin.AssignDeliveryRequestActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scrollbars="none">
+
+        <!-- Date and hour -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lblRequestDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="0dp"
+                android:text="@string/lblRequestDate"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/black"/>
+
+            <EditText
+                android:id="@+id/txtRequestDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:cursorVisible="false"
+                android:ems="10"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:inputType="date"/>
+
+
+            <TextView
+                android:id="@+id/lblSenderName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lblSenderName"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="10dp"/>
+
+            <EditText
+                android:id="@+id/txtSenderName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:cursorVisible="false"
+                android:ems="10"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:inputType="text"/>
+
+            <TextView
+                android:id="@+id/lblSenderNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lblSenderNumber"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="10dp"/>
+
+            <EditText
+                android:id="@+id/txtSenderNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:cursorVisible="false"
+                android:ems="10"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:inputType="number"/>
+
+            <TextView
+                android:id="@+id/lblSenderAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lblSenderAddress"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="10dp"/>
+
+            <EditText
+                android:id="@+id/txtSenderAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:cursorVisible="false"
+                android:ems="10"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:inputType="text"/>
+
+            <TextView
+                android:id="@+id/lblSenderComments"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lblSenderComments"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="10dp"/>
+
+            <EditText
+                android:id="@+id/txtSenderComments"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:cursorVisible="false"
+                android:ems="10"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:inputType="text"/>
+
+            <TextView
+                android:id="@+id/lblReceiverName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/lblReceiverName"
+                android:textColor="@android:color/black"/>
+
+            <EditText
+                android:id="@+id/txtReceiverName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:ems="10"
+                android:focusable="false"
+                android:inputType="text"
+                android:textIsSelectable="false"/>
+
+            <TextView
+                android:id="@+id/lblReceiverAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/lblReceiverAddress"
+                android:textColor="@android:color/black"/>
+
+            <EditText
+                android:id="@+id/txtReceiverAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:ems="10"
+                android:focusable="false"
+                android:inputType="text"
+                android:textIsSelectable="false"/>
+
+            <TextView
+                android:id="@+id/lblDeliverName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/lblDeliverName"
+                android:textColor="@android:color/black"/>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/spDeliver"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_white_rectangle"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp">
+
+                <Button
+                    android:id="@+id/btnAssign"
+                    android:layout_width="30dp"
+                    android:layout_height="60dp"
+                    android:onClick="assignRequest"
+                    android:text="@string/lblAssignRequest"
+                    android:theme="@style/SubmitButton"
+                    android:layout_weight="1"
+                    />
+
+                <Button
+                    android:text="@string/lblCancel"
+                    android:layout_width="30dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:id="@+id/btnCancel"
+                    android:layout_weight="1"
+                    android:theme="@style/CancelButton"
+                    android:textColor="@color/colorWhite"
+                    android:onClick="cancel"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

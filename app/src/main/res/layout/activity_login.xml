@@ -27,10 +27,11 @@
             android:layout_marginBottom="8dp">
 
             <EditText android:id="@+id/input_userName"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="text"
-                android:hint="@string/userName"/>
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:inputType="text"
+                      android:hint="@string/userName"
+                      android:fontFamily="sans-serif-smallcaps"/>
         </android.support.design.widget.TextInputLayout>
 
         <!-- Password Label -->
@@ -41,10 +42,11 @@
             android:layout_marginBottom="8dp">
 
             <EditText android:id="@+id/input_password"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="textPassword"
-                android:hint="@string/password"/>
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:inputType="textPassword"
+                      android:hint="@string/password"
+                      android:fontFamily="sans-serif-smallcaps"/>
         </android.support.design.widget.TextInputLayout>
 
         <android.support.v7.widget.AppCompatButton
@@ -57,7 +59,8 @@
             android:text="@string/connection"
             android:onClick="onLoginToApp"
             android:background="@drawable/rounded_green_rectangle"
-            android:textColor="@color/colorWhite"/>
+            android:textColor="@color/colorWhite"
+            android:fontFamily="sans-serif-smallcaps"/>
 
         <TextView android:id="@+id/lbl_badConnexionInfo"
             android:layout_width="fill_parent"

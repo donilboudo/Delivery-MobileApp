@@ -16,7 +16,7 @@ import java.net.URL;
 
 import javax.net.ssl.HttpsURLConnection;
 
-import ca.beogotechnologies.deliverymanager_mobileapp.activities.LoginActivity;
+import ca.beogotechnologies.deliverymanager_mobileapp.activities.common.LoginActivity;
 import ca.beogotechnologies.deliverymanager_mobileapp.util.EndpointConstants;
 
 import static ca.beogotechnologies.deliverymanager_mobileapp.util.JsonUtil.getPostDataString;
@@ -50,8 +50,8 @@ public class LoginTask extends AsyncTask<String, Void, String> {
             Log.e("params", postDataParams.toString());
 
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
-            conn.setReadTimeout(15000 /* milliseconds */);
-            conn.setConnectTimeout(15000 /* milliseconds */);
+            conn.setReadTimeout(25000 /* milliseconds */);
+            conn.setConnectTimeout(25000 /* milliseconds */);
             conn.setRequestMethod("GET");
             conn.setDoInput(true);
             conn.setDoOutput(true);

@@ -15,6 +15,7 @@ public class Client implements Serializable{
     private String phone;
     private String country;
     private String city;
+    private String clientType;
 
     public Client() {
 
@@ -75,5 +76,13 @@ public class Client implements Serializable{
 
     public void setCity(String city) {
         this.city = city;
+    }
+
+    public String getClientType() {
+        return clientType;
+    }
+
+    public void setClientType(String clientType) {
+        this.clientType = clientType;
     }
 }

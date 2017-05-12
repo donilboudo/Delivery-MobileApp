@@ -16,34 +16,55 @@
     <string name="new_delivery">Nouvelle livraison</string>
     <string name="userInfo">Mes informations</string>
     <string name="lblComments">Commentaires:</string>
-    <string name="logout">Deconnexion</string>
+    <string name="logout">Déconnexion</string>
 
     <!--general-->
     <string name="lblStartDelivery">Démarrer la course</string>
     <string name="lblCancel">Annuler</string>
+    <string name="lblWelcome">Bienvenue</string>
 
     <string name="lblClient">Client:</string>
-    <string name="lblSenderReferences">References de l\'envoyeur:</string>
+    <string name="lblSenderReferences">Réferences de l\'envoyeur:</string>
     <string name="lblSendDate"><![CDATA[Date & Heure]]> d\'envoie:</string>
     <string name="lblReceiver">Receveur:</string>
-    <string name="lblReceiverAddress">Addresse de livraison:</string>
+    <string name="lblReceiverNumber">Numéro du receveur:</string>
+    <string name="lblReceiverAddress">Adresse de livraison:</string>
     <string name="lblSender">Envoyeur:</string>
-    <string name="lblReceiverReferences">References du receveur:</string>
+    <string name="lblReceiverReferences">Réferences du receveur:</string>
+    <string name="lblDeliveryType">Type de colis:</string>
+    <string name="lblClientName">Nom et prénom du client:</string>
+    <string name="lblClientAddress">Adresse du client</string>
+    <string name="lblClientNumber">Numéro du client</string>
 
 
-    <string name="lblBadConnexionInfo">Verifier les informations de connexion</string>
+    <string name="lblBadConnexionInfo">Vérifier les informations de connexion</string>
     <string name="lblEndDelivery">Terminer la course</string>
     <string name="lblReceiveDate">Date de réception:</string>
 
 
     <!--user info-->
-    <string name="lblFirstName">Prenom</string>
+    <string name="lblFirstName">Prénom</string>
     <string name="lblLastName">Nom</string>
-    <string name="lblPhone">Telephone</string>
+    <string name="lblPhone">Téléphone</string>
     <string name="lblEmail">Email</string>
     <string name="lblUserName">Nom d\'utilisateur</string>
     <string name="lblPassword">Mot de passe</string>
-    <string name="lblUpdateInfo">Mise a jour</string>
+    <string name="lblUpdateInfo">Mise à jour</string>
     <string name="logo">logo</string>
     <string name="lblBack">Retour</string>
+    <string name="title_deliveryRequests">Demandes de livraisons</string>
+    <string name="title_openedDeliveries">Livraisons en cours</string>
+    <string name="lblRequestDate">Date et heure de la demande</string>
+    <string name="lblSenderName">Nom et prénom de l\'envoyeur</string>
+    <string name="lblReceiverName">Nom et prénom du receveur</string>
+    <string name="lblSenderNumber">Numéro de l\'envoyeur</string>
+    <string name="lblSenderAddress">Adresse de l\'envoyeur</string>
+    <string name="lblDeliverName">Livreur</string>
+    <string name="lblAssignRequest">Assigner</string>
+    <string name="lblSenderComments">Commentaires de l\'envoyeur</string>
+    <string name="title_completeDelivery">Terminer une course</string>
+    <string name="title_deliveryDetails">Détails de la livraison</string>
+    <string name="title_startDelivery">Démarrer une livraison</string>
+    <string name="title_assignDeliveryRequest">Assigner une demande de livraison</string>
+    <string name="lblNewDelivery">Nouvelle livraison</string>
 </resources>

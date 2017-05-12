@@ -97,4 +97,8 @@ public class User implements Serializable {
     public void setRole(String role) {
         this.role = role;
     }
+
+    public String getFullName(){
+        return this.firstName + " " + this.lastName;
+    }
 }

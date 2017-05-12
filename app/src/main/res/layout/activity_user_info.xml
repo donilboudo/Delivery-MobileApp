@@ -10,7 +10,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="ca.beogotechnologies.deliverymanager_mobileapp.activities.UserInfoActivity">
+    tools:context="ca.beogotechnologies.deliverymanager_mobileapp.activities.common.UserInfoActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -39,7 +39,8 @@
                     android:id="@+id/lblFirstName"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/lblFirstName"/>
+                    android:text="@string/lblFirstName"
+                    android:fontFamily="sans-serif-smallcaps"/>
 
                 <EditText
                     android:id="@+id/txtFirstName"
@@ -57,7 +58,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:text="@string/lblLastName"/>
+                    android:text="@string/lblLastName"
+                    android:fontFamily="sans-serif-smallcaps"/>
 
                 <EditText
                     android:id="@+id/txtLastName"
@@ -75,7 +77,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:text="@string/lblEmail"/>
+                    android:text="@string/lblEmail"
+                    android:fontFamily="sans-serif-smallcaps"/>
 
                 <EditText
                     android:id="@+id/txtEmail"
@@ -90,7 +93,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:text="@string/lblPhone"/>
+                    android:text="@string/lblPhone"
+                    android:fontFamily="sans-serif-smallcaps"/>
 
                 <EditText
                     android:id="@+id/txtPhone"
@@ -104,7 +108,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:text="@string/lblUserName"/>
+                    android:text="@string/lblUserName"
+                    android:fontFamily="sans-serif-smallcaps"/>
 
                 <EditText
                     android:id="@+id/txtUserName"
@@ -118,7 +123,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:text="@string/lblPassword"/>
+                    android:text="@string/lblPassword"
+                    android:fontFamily="sans-serif-smallcaps"/>
 
                 <EditText
                     android:id="@+id/txtPassword"
@@ -142,7 +148,7 @@
                         android:text="@string/lblUpdateInfo"
                         android:theme="@style/SubmitButton"
                         android:layout_weight="1"
-                        />
+                        android:fontFamily="sans-serif-smallcaps"/>
 
                     <Button
                         android:text="@string/lblCancel"
@@ -156,7 +162,8 @@
                         android:layout_weight="1"
                         android:theme="@style/CancelButton"
                         android:textColor="@color/colorWhite"
-                        android:onClick="onCancel"/>
+                        android:onClick="onCancel"
+                        android:fontFamily="sans-serif-smallcaps"/>
                 </LinearLayout>
 
             </LinearLayout>

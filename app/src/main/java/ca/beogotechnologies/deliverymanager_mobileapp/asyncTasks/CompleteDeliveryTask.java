@@ -18,7 +18,7 @@ import ca.beogotechnologies.deliverymanager_mobileapp.util.EndpointConstants;
 import static ca.beogotechnologies.deliverymanager_mobileapp.util.JsonUtil.getPostDataString;
 
 public class CompleteDeliveryTask extends AsyncTask<String, Void, String> {
-    private String loginEndpointUrl = EndpointConstants.remoteEndpointUrl + "/mobile/closeDelivery";
+    private static final String loginEndpointUrl = EndpointConstants.remoteEndpointUrl + "/mobile/closeDelivery";
 
     public interface AsyncResponse {
         void processFinish(String output);
@@ -50,8 +50,8 @@ public class CompleteDeliveryTask extends AsyncTask<String, Void, String> {
             Log.e("params", postDataParams.toString());
 
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
-            conn.setReadTimeout(15000 /* milliseconds */);
-            conn.setConnectTimeout(15000 /* milliseconds */);
+            conn.setReadTimeout(25000 /* milliseconds */);
+            conn.setConnectTimeout(25000 /* milliseconds */);
             conn.setRequestMethod("POST");
             conn.setDoInput(true);
             conn.setDoOutput(true);

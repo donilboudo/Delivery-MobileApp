@@ -9,14 +9,14 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="ca.beogotechnologies.deliverymanager_mobileapp.activities.MyCompletedDeliveriesActivity">
+    tools:context="ca.beogotechnologies.deliverymanager_mobileapp.activities.employee.MyDeliveryiesHistoryActivity">
 
     <ListView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
         android:id="@+id/lstDeliveries"
-        android:scrollbars="none"/>
+        android:scrollbars="none"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
 </RelativeLayout>

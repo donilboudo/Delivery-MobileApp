@@ -5,6 +5,6 @@ package ca.beogotechnologies.deliverymanager_mobileapp.util;
  */
 
 public class DeliveryConstants {
-    public static String STARTED = "STARTED";
-    public static String COMPLETED = "COMPLETED";
+    public static final String STARTED = "STARTED";
+    public static final String COMPLETED = "COMPLETED";
 }

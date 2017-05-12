@@ -8,7 +8,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/logo"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/DeliveryManager">
@@ -21,7 +21,7 @@
             </intent-filter>
         </receiver>
 
-        <activity android:name=".activities.LoginActivity">
+        <activity android:name=".activities.common.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -29,47 +29,68 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activities.MainActivity"
-            android:label="@string/title_menu"
-            android:parentActivityName=".activities.LoginActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".activities.LoginActivity"/>
+            android:name=".activities.employee.EmployeeMenuActivity"
+            android:label="@string/title_menu">
         </activity>
         <activity
-            android:name=".activities.NewDeliveryActivity"
-            android:label="@string/title_newDelivery"
-            android:windowSoftInputMode="stateHidden">
+            android:name=".activities.employee.NewDeliveryActivity"
+            android:label="@string/title_newDelivery">
         </activity>
         <activity
-            android:name=".activities.MyOpenedDeliveriesActivity"
-            android:label="@string/title_myDeliveries"
-            android:parentActivityName=".activities.MainActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".activities.MainActivity"/>
+            android:name=".activities.employee.MyOpenedDeliveriesActivity"
+            android:label="@string/title_myDeliveries">
         </activity>
         <activity
-            android:name=".activities.MyCompletedDeliveriesActivity"
-            android:label="@string/title_myDeliveriesHistory"
-            android:windowSoftInputMode="stateHidden">
+            android:name=".activities.employee.MyDeliveryiesHistoryActivity"
+            android:label="@string/title_myDeliveriesHistory">
         </activity>
         <activity
-            android:name=".activities.UserInfoActivity"
-            android:label="@string/title_myInfo"
-            android:windowSoftInputMode="stateHidden">
+            android:name=".activities.common.UserInfoActivity"
+            android:label="@string/title_myInfo">
         </activity>
         <activity
-            android:name=".activities.CompleteDeliveryActivity"
-            android:parentActivityName=".activities.MyOpenedDeliveriesActivity"
-            android:windowSoftInputMode="stateHidden">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".activities.MyOpenedDeliveriesActivity"/>
+            android:name=".activities.employee.CompleteDeliveryActivity"
+            android:label="@string/title_completeDelivery">
         </activity>
-        <activity android:name=".activities.CompletedDeliveryDetailsActivity">
-        </activity><!-- ATTENTION: This was auto-generated to add Google Play services to your project for
-     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <activity
+            android:name=".activities.employee.MyDeliveryHistoryDetailsActivity"
+            android:label="@string/title_deliveryDetails">
+        </activity>
+        <activity
+            android:name=".activities.employee.StartDeliveryActivity"
+            android:label="@string/title_startDelivery">
+        </activity>
+
+        <!-- admin -->
+        <activity
+            android:name=".activities.admin.AdminMenuActivity"
+            android:label="@string/title_menu">
+        </activity>
+        <activity
+            android:name=".activities.admin.DeliveryRequestsActivity"
+            android:label="@string/title_deliveryRequests">
+        </activity>
+        <activity
+            android:name=".activities.admin.AssignDeliveryRequestActivity"
+            android:label="@string/title_assignDeliveryRequest">
+        </activity>
+        <activity
+            android:name=".activities.admin.OpenedDeliveriesActivity"
+            android:label="@string/title_openedDeliveries">
+        </activity>
+        <activity
+            android:name=".activities.admin.DeliveryDetailsActivity"
+            android:label="@string/title_deliveryDetails">
+        </activity>
+        <activity
+            android:name=".activities.admin.NewDeliveryActivity"
+            android:label="@string/title_newDelivery">
+        </activity>
+
+        <!--
+     ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version"/>
